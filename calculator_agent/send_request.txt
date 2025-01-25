@@ -1,0 +1,3 @@
+curl -X POST "http://localhost:8000/calculate" \
+-H "Content-Type: application/json" \
+-d '{"calculator_model": "llama-3.3-70b-versatile", "system_prompt": "Calculate precisely", "messages": ["What is 200 cubed?"]}'
